@@ -52,25 +52,3 @@ Para garantir a fiabilidade exigida, o projeto implementa:
 
 ## Considerações Finais
 Este repositório foi estruturado seguindo as melhores práticas de Clean Code e Separation of Concerns, garantindo um código modular e de fácil manutenção.
-
-
----
-
-### Resumo dos Comandos Utilizados:
-
-| Comando | Resultado |
-| :--- | :--- |
-| `# Texto` | Título Principal (H1) |
-| `## Texto` | Subtítulo (H2) |
-| `**Texto**` | **Negrito** (ênfase forte) |
-| `*Texto*` | *Itálico* (ênfase leve) |
-| `` `Código` `` | `Texto em fonte monoespaçada` (inline) |
-| ` ```bash ` | Bloco de código multi-linha com cor de terminal |
-| `* Item` | Lista com marcadores |
-| `> Texto` | Bloco de destaque/aviso |
-| `---` | Linha divisória horizontal |
-
-### Próximo Passo:
-Agora que você tem o texto formatado, basta criar um arquivo chamado **`README.md`** na pasta raiz do seu projeto, colar este conteúdo dentro dele e fazer o `git push`. O GitHub reconhecerá automaticamente e renderizará a página com este visual profissional.
-
-**Gostaria que eu formatasse mais alguma seção específica, como os termos de licença ou contato?**
