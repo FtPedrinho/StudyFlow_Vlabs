@@ -1,3 +1,5 @@
+.vscode/
+
 # --- Backend (Python) ---
 backend/venv/
 __pycache__/
