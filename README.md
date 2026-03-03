@@ -51,6 +51,7 @@ Para garantir a fiabilidade exigida, o projeto implementa:
 **CI Pipeline:** Automatização via GitHub Actions.
 
 ## Considerações Finais
+
 Este repositório foi estruturado seguindo as melhores práticas de Clean Code e Separation of Concerns, garantindo um código modular e de fácil manutenção.
 ---
 ## Como Executar o Projeto
