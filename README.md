@@ -52,3 +52,67 @@ Para garantir a fiabilidade exigida, o projeto implementa:
 
 ## Considerações Finais
 Este repositório foi estruturado seguindo as melhores práticas de Clean Code e Separation of Concerns, garantindo um código modular e de fácil manutenção.
+---
+## Como Executar o Projeto
+
+Siga as etapas abaixo para configurar o ambiente de desenvolvimento local.
+
+### 1. Configuração do Backend (Python/FastAPI)
+
+O servidor backend gerencia o banco de dados SQLite e a integração com a API de IA.
+
+1.  **Aceda ao diretório:** `cd backend`
+2.  **Crie um ambiente virtual:**
+    ```bash
+    python -m venv venv
+    ```
+3.  **Ative o ambiente:**
+    * Windows: `venv\Scripts\activate`
+    * Linux/macOS: `source venv/bin/activate`
+4.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+5.  **Variáveis de Ambiente:**
+    Crie um ficheiro `.env` na raiz da pasta `backend` e adicione a sua chave:
+    ```env
+    GEMINI_API_KEY=sua_chave_aqui
+    ```
+6.  **Inicie o servidor:**
+    ```bash
+    uvicorn main:app --reload
+    ```
+    *O backend estará disponível em: `http://127.0.0.1:8000`*
+
+
+
+---
+
+### 2. Configuração do Frontend (React/Vite)
+
+A interface web permite a gestão dos recursos e interação com o Smart Assist.
+
+1.  **Aceda ao diretório:** `cd frontend`
+2.  **Instale as dependências do Node:**
+    ```bash
+    npm install
+    ```
+3.  **Inicie a aplicação:**
+    ```bash
+    npm run dev
+    ```
+4.  **Aceda ao sistema:**
+    Abra o navegador em: `http://localhost:5173`
+
+
+
+---
+
+### 3. Verificação de Saúde (Observabilidade)
+
+Para validar se o sistema está operacional, pode aceder aos seguintes endpoints:
+
+* **API Health Check:** `http://127.0.0.1:8000/health` (Retorna o estado do banco e IA).
+* **Documentação Automática:** `http://127.0.0.1:8000/docs` (Interface Swagger para testes de API).
+
+---
