@@ -75,7 +75,7 @@ O servidor backend gerencia o banco de dados SQLite e a integração com a API d
     pip install -r requirements.txt
     ```
 5.  **Variáveis de Ambiente:**
-    Crie um ficheiro `.env` na raiz da pasta `backend` e adicione a sua chave conforme a pasta `.env.examplo`:
+    Crie um ficheiro `.env` na raiz da pasta `backend` e adicione a sua chave conforme a pasta `.env.exemplo`:
     ```env
     GEMINI_API_KEY=sua_chave_aqui
     ```
