@@ -93,7 +93,7 @@ O servidor backend gerencia o banco de dados SQLite e a integração com a API d
 
 A interface web permite a gestão dos recursos e interação com o Smart Assist.
 
-1.  **Aceda ao diretório:** `cd frontend`
+1.  **Aceda ao diretório:** `cd frontend-react`
 2.  **Instale as dependências do Node:**
     ```bash
     npm install
