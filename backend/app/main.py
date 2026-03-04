@@ -5,7 +5,7 @@ from typing import List, Optional
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from ai_service import sugerir_recursos
+from app.ai_service import sugerir_recursos
 
 # Configuração do Banco de Dados
 DATABASE_URL = "sqlite:///./hub_recursos.db"
